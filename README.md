@@ -4,7 +4,7 @@ This project provides a complete login screen with an optional registration syst
 
 ## Injection
 
-This project is suitable for those who wish to perform code injection. The injection logic in the target application is contained in the `HomeActivity.kt` file. The code in this file utilizes the `seu_outro_projeto` project.
+This project is suitable for those who wish to perform code injection. The injection logic in the target application is contained in the `HomeActivity.kt` file. The code in this file utilizes the [project](https://github.com/Vitor-VX/FakeLib-Inject).
 
 ## Requirements
 
