@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_login"
+        android:icon="@drawable/icon_login"
+        android:title="Login" />
+    <item
+        android:id="@+id/navigation_discord"
+        android:icon="@drawable/icon_dc"
+        android:title="Discord" />
+    <item
+        android:id="@+id/navigation_username"
+        android:icon="@drawable/icon_username"
+        android:title="Username" />
+</menu>

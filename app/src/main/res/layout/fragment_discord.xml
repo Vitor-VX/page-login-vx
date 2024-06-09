@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_fragment_dc"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/icon_dc_enter" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abcginto_bold"
+            android:text="Entre em nosso Discord!"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Junte-se a nós para atualizações, discussões e muito mais!"
+        android:fontFamily="@font/abcginto_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/btn_enter_dc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abcginto_bold"
+        android:text="Entrar no Discord"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/background_button" />
+
+</LinearLayout>
