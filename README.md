@@ -45,6 +45,6 @@ https://github.com/Vitor-VX/page-login-vx.git
 
 ## Important
 
-If you wish to add another library, it is necessary to increase the `#define MAX_LIB` in the `libdetect.h` file in the `vx/` folder. Otherwise, the application will consider it an internal library (possible detection).
+If you wish to add another library, it is necessary to increase the `#define MAX_LIB` in the `libdetect.cpp` file in the `vx/` folder. Otherwise, the application will consider it an internal library (possible detection).
 
 It is advisable to use a rooted device. If it is not a rooted device, set the `isRoot` variable in the `libdetect.cpp` file to `false` to avoid issues.
