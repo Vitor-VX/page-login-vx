@@ -18,7 +18,7 @@ return res.redirect(`vxinjector://login-success?token=${tokenUser}`)
 
 - **Login**: Users can securely log in.
 - **Optional Registration**: A registration system is available but optional and can be disabled as needed.
-- **Integrated Discord Page**: Access our community on Discord directly from the app.
+- **Integrated Discord Page**:  Place your Discord community within the app.
 - **Device Choice**: Choose between mobile devices and emulators to test the app.
 - **Basic Security Measures**: Includes basic Frida detection and internal library detection.
 
