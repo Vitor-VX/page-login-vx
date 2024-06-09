@@ -3,7 +3,9 @@
 This project provides a complete login screen with an optional registration system, integrated Discord page, and additional security measures.
 
 [![photo1717907480.jpg](https://i.postimg.cc/9FrPPMyq/photo1717907480.jpg)](https://postimg.cc/fJQ0DM2w)
+
 [![photo1717907480-1.jpg](https://i.postimg.cc/1R6Vyq0B/photo1717907480-1.jpg)](https://postimg.cc/Thd39h45)
+
 [![photo1717907480-2.jpg](https://i.postimg.cc/BbG6jm5g/photo1717907480-2.jpg)](https://postimg.cc/ygvB5Xbg)
 
 ## Injection
