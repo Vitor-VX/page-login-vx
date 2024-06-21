@@ -111,11 +111,12 @@ std::vector<std::string> getLibPaths() {
 }
 
 void *checkLibCount(void *) {
-	std::vector<std::string> lib = getLibPaths();
-	int value = lib.size();
+	while(true) {
+	  std::vector<std::string> lib = getLibPaths();
+	  int value = lib.size();
 
-	if (value > MAX_LIB) processKill();
-
+	  if (value > MAX_LIB) processKill();
+	}
 	return NULL;
 }
 
